@@ -1,7 +1,7 @@
 fancybox: true ## If you want to use fancybox please set the value to true.
 disqus: itgoyo ## Your disqus_shortname, e.g. username
 gitment:
-  enable: true ## If you want to use Gitment comment system please set the value to true.
+  enable: false ## If you want to use Gitment comment system please set the value to true.
   owner: itgoyo ## Your GitHub ID, e.g. username
   repo: itgoyo.github.io ## The repository to store your comments, make sure you're the repo's owner, e.g. imsun.github.io
   client_id: 464e7c112346fd6daabb ## GitHub client ID, e.g. 75752dafe7907a897619
@@ -11,10 +11,10 @@ livere: ## Your livere data-uid, e.g. MTAyMC8zMDAxOC78NTgz
 changyan: ## Your changyan appid, e.g. cyrALsXc8
 changyan_conf: ## Your changyan conf, e.g. prod_d8a508c2825ab57eeb43e7c69bba0e8b
 valine: ## https://valine.js.org
-  enable: false ## If you want to use Valine comment system, please set the value to true.
-  appid: ## Your LeanCloud application App ID, e.g. pRBBL2JR4N7kLEGojrF0MsSs-gzGzoHsz
-  appkey: ## Your LeanCloud application App Key, e.g. tjczHpDfhjYDSYddzymYK1JJ
-  notify: false ## Mail notifier, see https://github.com/xCss/Valine/wiki/Valine-评论系统中的邮件提醒设置
+  enable: true ## If you want to use Valine comment system, please set the value to true.
+  appid: HzQ14MvDJNcJ4Y73LGzWkuKD-gzGzoHsz ## Your LeanCloud application App ID, e.g. pRBBL2JR4N7kLEGojrF0MsSs-gzGzoHsz
+  appkey: gPggWGa1wwwhXbzuhnSQyQDx ## Your LeanCloud application App Key, e.g. tjczHpDfhjYDSYddzymYK1JJ
+  notify: true ## Mail notifier, see https://github.com/xCss/Valine/wiki/Valine-评论系统中的邮件提醒设置
   verify: false ## Validation code.
   placeholder: Just so so ## Comment box placeholders.
   avatar: 'mm' ## Gravatar type, see https://github.com/xCss/Valine/wiki/avatar-setting-for-valine
@@ -101,6 +101,8 @@ timeline:
     word: 2016/11/开通Github账号
   - num: 3
     word: 2017/02/使用Hexo搭建个人博客
+  - num: 4
+    word: 2019/02/全栈之巅
 
 # Static files
 js: js
